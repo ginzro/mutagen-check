@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  mutagen-check:
+    build:
+      context: ./
+    volumes:
+      - ./volumed:/app/volumed:delegated
